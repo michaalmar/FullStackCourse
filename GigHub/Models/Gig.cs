@@ -16,8 +16,8 @@ namespace GigHub.Models
         public string ArtistId { get; set; }
 
         public DateTime DateTime { get; set; }
-        [Required]
 
+        [Required]
         [StringLength(255)]
         public string Venue { get; set; }
 
