@@ -22,3 +22,44 @@ select,
 textarea {
     max-width: 280px;
 }
+
+/*Bootstrap overrides*/
+.navbar-inverse {
+    background-color: #ff3030; 
+    border-color: #ff3030;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+        color: #ffffff;
+    }
+
+    .navbar-inverse .navbar-brand {
+        color: #ffffff;
+    }
+
+body {
+    font-family: Concert One, "Helvetica Neue", Helvetica, Arial, sans-serif;
+ 
+    font-size: 18px;
+}
+label {
+ 
+    font-size: 20px;
+}
+.navbar-brand {
+  
+    font-size: 30px;
+   
+}
+.form-control {
+   
+    font-size: 18px;
+}
+.btn {
+ 
+    padding: 6px 20px;
+   
+    font-size: 18px;
+  
+    border-radius: 12px;
+}
