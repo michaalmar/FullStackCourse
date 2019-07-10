@@ -1,5 +1,5 @@
 ﻿body {
-    padding-top: 50px;
+    padding-top: 100px;
     padding-bottom: 20px;
 }
 
@@ -32,11 +32,11 @@ span.field-validation-error {
 
 /*Bootstrap overrides*/
 .navbar-inverse {
-    background-color: #ff3030; 
+    background-color: #ff3030;
     border-color: #ff3030;
 }
 
-.navbar-inverse .navbar-nav > li > a {
+    .navbar-inverse .navbar-nav > li > a {
         color: #ffffff;
     }
 
@@ -46,27 +46,72 @@ span.field-validation-error {
 
 body {
     font-family: Concert One, "Helvetica Neue", Helvetica, Arial, sans-serif;
- 
     font-size: 18px;
 }
+
 label {
- 
     font-size: 20px;
 }
+
 .navbar-brand {
-  
     font-size: 30px;
-   
 }
+
 .form-control {
-   
     font-size: 18px;
 }
+
 .btn {
- 
     padding: 6px 20px;
-   
     font-size: 18px;
-  
     border-radius: 12px;
 }
+
+/*Page-levels styles*/
+.gigs {
+    list-style: none;
+}
+
+
+    .gigs > li {
+        position: relative;
+        margin-bottom: 30px;
+    }
+
+        .gigs > li .date {
+            background-color: red;
+            color: white;
+            text-align: center;
+            width: 60px;
+            border-radius: 8px;
+        }
+
+            .gigs > li .date .month {
+                text-transform: uppercase;
+                font-size: 14px;
+                font-weight: bold;
+                padding: 2px, 6px;
+            }
+
+            .gigs > li .date .day {
+                background-color: #f2eded;
+                color: black;
+                padding: 6px 12px;
+            }
+
+
+
+        .gigs > li .details {
+            position: absolute;
+            top: 0;
+            left: 70px;
+        }
+
+            .gigs > li .details .artist {
+                font-weight: bold;
+                display: block;
+            }
+
+            .gigs > li .details .genre {
+                font-size: 15px;
+            }
